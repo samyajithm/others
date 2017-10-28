@@ -1,0 +1,67 @@
+.homeimage{
+	width:30px;
+	float:left;
+	margin-top: -9px;
+}
+
+.pad-left{
+	margin-left: 60px;
+}
+
+.pad-top{
+	 margin-top: 10px;
+}
+
+.transparent{
+	background-color:transparent;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: black;
+}
+
+.navbar-collapse{
+	float:right;
+}
+
+ul{
+	list-style: none;
+}
+
+.fontsize{
+
+	font-size: 10px;
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.0em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 1.0em; /* 0.8x default size */
+        }
+    }
+.black{
+    color:black;
+}
+
+.orange{
+    color:orange;
+}
+
+.himage{
+background-image: url("painting.jpg");
+}
+
+.first{
+    height:300px;
+    border:-2px;
+    margin-top:-10px;
+}
